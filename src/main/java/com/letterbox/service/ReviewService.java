@@ -1,7 +1,7 @@
 package com.letterbox.service;
 
 import com.letterbox.dto.ReviewDTO;
-import com.letterbox.entity.Review;               // 👈 OJO: Entity con E mayúscula (como en tu proyecto)
+import com.letterbox.entity.Review;
 import com.letterbox.repository.ReviewRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
