@@ -279,6 +279,15 @@ public class DataLoader implements CommandLineRunner {
         review1.setReviewDate(LocalDateTime.now());
         reviewRepository.save(review1);
 
+        Review review31 = new Review();
+        review31.setMovieId(movie1.getId());
+        review31.setReviewerName("Lionel Messi");
+        review31.setRating(5.0);
+        review31.setComment("Anda pa' lla.");
+        review31.setIsFavorite(true);
+        review31.setReviewDate(LocalDateTime.now());
+        reviewRepository.save(review31);
+
         Review review2 = new Review();
         review2.setMovieId(movie2.getId());
         review2.setReviewerName("Carlos Rodríguez");
